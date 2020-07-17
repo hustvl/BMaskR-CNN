@@ -46,7 +46,7 @@ that BMask R-CNN obtains more obvious improvement when the evaluation criterion 
 | BMask R-CNN | R50-FPN | 1x | 36.2 | [model](https://1drv.ms/u/s!AiO3BIXgPy5wgQXy09QVGx89O3Fq?e=VwMp2b)|
 
 
-## Results
+## Visualizations
 
 ![](./images/curve_vis.jpg)
 
