@@ -1,0 +1,16 @@
+_BASE_: "../../../configs/Base-RCNN-FPN.yaml"
+MODEL:
+  MASK_ON: true
+  ROI_HEADS:
+    NAME: "BoundaryROIHeads"
+    IN_FEATURES: ["p2", "p3", "p4", "p5"]
+  ROI_BOX_HEAD:
+    TRAIN_ON_PRED_BOXES: True
+  ROI_MASK_HEAD:
+    NAME: "BoundaryPreservingHead"
+    NUM_CONV: 4
+    POOLER_RESOLUTION: 14
+  BOUNDARY_MASK_HEAD:
+    POOLER_RESOLUTION: 28
+    IN_FEATURES: ["p2"]
+    NUM_CONV: 2
