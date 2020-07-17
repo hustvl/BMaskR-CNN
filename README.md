@@ -33,7 +33,7 @@ that BMask R-CNN obtains more obvious improvement when the evaluation criterion 
 | BMask R-CNN | R101-FPN| 1x | 38.0 | 58.6 | 40.9 | 17.6 | 40.6 | 56.8 | [model](https://1drv.ms/u/s!AiO3BIXgPy5wgQS7Rali6QkXnrS3?e=LuTAup) |
 | Cascade Mask R-CNN  | R50-FPN | 1x | 36.4 | 56.9 | 39.2 | 17.5 | 38.7 | 52.5 | - |
 | Cascade BMask R-CNN | R50-FPN | 1x | 37.5 | 57.3 | 40.7 | 17.5 | 39.8 | 55.1 | [model](https://1drv.ms/u/s!AiO3BIXgPy5wgQbCmylIyL4Z4GFh?e=MNrgaD)  |
-| Cascade BMask R-CNN | R101-FPN | 1x | 39.1 | 59.2 | 42.4 | 18.6 | 42.2 | 57.4 | [model](https://1drv.ms/u/s!AiO3BIXgPy5wgQbCmylIyL4Z4GFh?e=MNrgaD)  |
+| Cascade BMask R-CNN | R101-FPN | 1x | 39.1 | 59.2 | 42.4 | 18.6 | 42.2 | 57.4 | [model](https://1drv.ms/u/s!AiO3BIXgPy5wgQcIpRDSMUKHVgMM?e=on6XLj)  |
 
 
 #### Cityscapes
@@ -50,7 +50,10 @@ that BMask R-CNN obtains more obvious improvement when the evaluation criterion 
 
 ![](./projects/BMaskR-CNN/images/curve_vis.jpg)
 
-**Left:** AP curves of Mask R-CNN and BMask R-CNN under different mask IoU thresholds on the COCO *val2017* set, the improvement becomes more significant when IoU increases. **Right:** Visualizations of Mask R-CNN and BMask R-CNN. BMask R-CNN can output more precise boundaries and accurate masks than Mask R-CNN.
+**Left:** AP curves of Mask R-CNN and BMask R-CNN under different mask IoU thresholds on the COCO *val2017* set, 
+the improvement becomes more significant when IoU increases. 
+**Right:** Visualizations of Mask R-CNN and BMask R-CNN. 
+BMask R-CNN can output more precise boundaries and accurate masks than Mask R-CNN.
 
 ## Usage
 
