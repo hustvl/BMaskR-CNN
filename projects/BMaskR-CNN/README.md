@@ -19,7 +19,7 @@ considerable margin on the COCO dataset; in the Cityscapes dataset,there are mor
 so that BMaskR-CNN obtains remarkable improvements over Mask R-CNN. Besides, it is not surprising to observe
 that BMask R-CNN obtains more obvious improvement when the evaluation criterion requires better localization (e.g., AP<sub>75</sub>) 
 
-![](./images/arch.jpg)
+![](./figures/arch.jpg)
 
 ## Models
 
@@ -48,7 +48,7 @@ that BMask R-CNN obtains more obvious improvement when the evaluation criterion 
 
 ## Visualizations
 
-![](./images/curve_vis.jpg)
+![](./figures/curve_vis.jpg)
 
 **Left:** AP curves of Mask R-CNN and BMask R-CNN under different mask IoU thresholds on the COCO *val2017* set, 
 the improvement becomes more significant when IoU increases. 
