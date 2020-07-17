@@ -19,7 +19,11 @@ considerable margin on the COCO dataset; in the Cityscapes dataset,there are mor
 so that BMaskR-CNN obtains remarkable improvements over Mask R-CNN. Besides, it is not surprising to observe
 that BMask R-CNN obtains more obvious improvement when the evaluation criterion requires better localization (e.g., AP<sub>75</sub>) 
 
-![](./figures/arch.jpg)
+<div align="center">
+<img src="./figures/arch.jpg" width="85%" />
+</div>
+
+
 
 ## Models
 
