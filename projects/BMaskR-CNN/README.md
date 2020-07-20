@@ -2,7 +2,7 @@
 
 This code is developed on [*Detectron2*](https://github.com/facebookresearch/detectron2)
 
-> [**Boundary-preserving Mask R-CNN**]()  
+> [**Boundary-preserving Mask R-CNN**](https://arxiv.org/abs/2007.08921)  
 > *ECCV 2020*    
 > Tianheng Cheng, Xinggang Wang, Lichao Huang, Wenyu Liu
 
