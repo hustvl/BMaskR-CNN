@@ -6,6 +6,9 @@ This code is developed on [*Detectron2*](https://github.com/facebookresearch/det
 > *ECCV 2020*    
 > Tianheng Cheng, Xinggang Wang, Lichao Huang, Wenyu Liu
 
+<div align="center">
+<img src="./projects/BMaskR-CNN/figures/demo.gif" width="100%" />
+</div>
 
 ## Abstract
 Tremendous efforts have been made to improve mask localization accuracy in instance segmentation. 
