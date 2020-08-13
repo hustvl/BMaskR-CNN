@@ -7,8 +7,9 @@ This code is developed on [*Detectron2*](https://github.com/facebookresearch/det
 > Tianheng Cheng, Xinggang Wang, Lichao Huang, Wenyu Liu
 
 <div align="center">
-<img src="./projects/BMaskR-CNN/figures/demo.git" width="100%" />
+<img src="./figures/demo.gif" width="100%" />
 </div>
+* Video from [Cam看世界](yutube.com/channel/UCBaNgnYE2i5jqgr7EFfP9zQ) *
 
 ## Abstract
 Tremendous efforts have been made to improve mask localization accuracy in instance segmentation. 
